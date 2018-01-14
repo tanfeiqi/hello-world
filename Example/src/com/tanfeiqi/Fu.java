@@ -5,10 +5,10 @@ package com.tanfeiqi;
  */
 public class Fu {
     Fu() {
-        show();
+        show();  //先在子类中找方法
     }
 
-    void show() {
+   void show() {
         System.out.println("fu show");
     }
 }
