@@ -31,6 +31,9 @@ public class HelloWorld {
                 System.out.print(d[i][j] + ",");
             }
         }
+
+        //接口的成员常量
+        System.out.println("接口的成员常量是: " + InterfaceDemo.NUM);
     }
 }
 
