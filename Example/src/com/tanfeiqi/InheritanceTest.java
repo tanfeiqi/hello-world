@@ -6,8 +6,11 @@ package com.tanfeiqi;
 public class InheritanceTest {
 
     public static void main(String[] args) {
-        Zi z = new Zi();
-        z.show();
+//        Zi z = new Zi();
+//        z.show();
+
+        Fu fu = new Zi();  //多态: 父类或者接口的引用指向其子类的对象
+        fu.show();
     }
 }
 

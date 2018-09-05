@@ -12,7 +12,7 @@ public class Zi extends Fu {
         System.out.println("父类初始化完毕后, num才进行显式初始化" + num);
     }
 
-    void show() {
-        System.out.println("zi show" + num);
-    }
+//    void show() {
+//        System.out.println("zi show" + num);
+//    }
 }

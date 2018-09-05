@@ -6,6 +6,8 @@ package com.tanfeiqi;
  * 1,类与接口是实现关系
  * 2,接口不可以实例化
  * 3,java不支持多继承, 但是可以多实现, 一个类可以实现多个接口
+ *
+ * 4, 接口与接口之间是继承关系, 可以多继承
  */
 public class ImplementsTest implements InterfaceDemo {
 
